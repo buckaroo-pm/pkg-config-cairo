@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'demo', 
+  header_namespace = '', 
+  headers = [
+    'write_png.h', 
+  ], 
+  srcs = [
+    'basket.c', 
+  ], 
+  deps = [
+    '//:cairo', 
+  ], 
+)
